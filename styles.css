@@ -171,6 +171,12 @@ body {
     background-color: #7400E8;
 }
 
+@media(max-width: 1690px) {
+    .main {
+        background: right bottom / 58vw 35vw no-repeat url(img/cloud3.png), right bottom / 50vw 33.5vw no-repeat url(img/cloud4.png);
+    }
+}
+
 @media(max-width: 1367px) {
     .header {
         display: flex;
@@ -290,12 +296,6 @@ body {
         height: 1.8vw;
         width: 100%;
         background-color: #7400E8;
-    }
-}
-
-@media(max-width: 1690px) {
-    .main {
-        background: right bottom / 58vw 35vw no-repeat url(img/cloud3.png), right bottom / 50vw 33.5vw no-repeat url(img/cloud4.png);
     }
 }
 
